@@ -52,7 +52,7 @@ br(),
     
     mainPanel(
       h4("flowAI is able to perform an automatic or interactive quality control on FCS data acquired using flow cytometry instruments. By evaluating three different properties: 1) flow rate, 2) signal acquisition, 3) dynamic range, the quality control enables the detection and removal of anomalies."),
-      HTML('<a href="https://academic.oup.com/bioinformatics/article/32/16/2473/2240408">FlowAI publication</a>'), citation("flowAI"), br(),
+#      HTML('<a href="https://academic.oup.com/bioinformatics/article/32/16/2473/2240408">FlowAI publication</a>'), citation("flowAI"), br(),
       titlePanel("The results will be print here:"),br(),
       #textOutput("inputFiles"),
       h4("Remember your input files were:"),
